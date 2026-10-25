@@ -10,7 +10,7 @@ JellyWrap opens https://jellyfin.monstr.tv as a fullscreen Android application. 
 
 See [version metadata](version.json) for the current version. The direct public APK above is available without GitHub login. [Checksums](SHA256SUMS) · [Version metadata](version.json).
 
-[JellyWrap 1.0.0 release](https://github.com/hossdawg/JellyWrap-Releases/releases/tag/v1.0.0) is published with the signed APK and SHA256SUMS. An alternative direct URL is https://raw.githubusercontent.com/hossdawg/JellyWrap-Releases/main/JellyWrap.apk. Build, lint, signature verification and host-browser focus checks passed; real device installation, login persistence, playback/fullscreen and TV remote acceptance remain untested.
+[JellyWrap 1.1.0 release](https://github.com/hossdawg/JellyWrap-Releases/releases/tag/v1.1.0) is published with the signed APK and SHA256SUMS. An alternative direct URL is https://raw.githubusercontent.com/hossdawg/JellyWrap-Releases/main/JellyWrap.apk. Build, lint, update-policy unit tests, signature verification and host-browser focus/zoom/fullscreen checks passed; real device installation, login persistence, playback/fullscreen and TV remote acceptance remain untested.
 
 ## Install using Downloader
 
@@ -20,6 +20,6 @@ A numeric Downloader code has not yet been registered. Maintainers can register 
 
 ## Other installation methods
 
-Download the APK in a browser and allow installation from that browser, or use `adb install -r JellyWrap.apk`. For updates, download the latest APK and install over the existing version. Login is retained with matching signing identity; uninstalling or clearing app data removes it. No automatic updater is included.
+Download the APK in a browser and allow installation from that browser, or use `adb install -r JellyWrap.apk`. For updates, download the latest APK and install over the existing version. Login is retained with matching signing identity; uninstalling or clearing app data removes it. Version 1.1.0 adds 10% page zoom and automatic update checks when the app opens or resumes, at most every six hours. Install 1.1.0 manually once if you have 1.0.0. Future versions can be downloaded inside JellyWrap; choose Download update, then Install update. Android/Fire TV still requires installation confirmation and may ask you to allow JellyWrap to install unknown apps. Fullscreen video uses normal scale. APK updates are checked against the published checksum, package ID, newer version code and the existing signing identity. There is no silent installation or background update service. If your firmware cannot open the installer, continue using Downloader.
 
 Android 6 or later and a working system WebView are required. Playback depends on system codecs and Jellyfin transcoding. Update WebView/system software if playback or navigation fails. Source code is maintained separately in a private repository.
