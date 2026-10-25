@@ -8,7 +8,7 @@ JellyWrap opens https://jellyfin.monstr.tv as a fullscreen Android application. 
 
 [Version history and SHA256 checksums](https://github.com/hossdawg/JellyWrap-Releases/releases)
 
-Current version: **1.0.0** (version code 1). The direct public APK above is available without GitHub login. [Checksums](SHA256SUMS) · [Version metadata](version.json).
+See [version metadata](version.json) for the current version. The direct public APK above is available without GitHub login. [Checksums](SHA256SUMS) · [Version metadata](version.json).
 
 The GitHub Releases asset URL will be https://github.com/hossdawg/JellyWrap-Releases/releases/latest/download/JellyWrap.apk once release-upload authorization is configured. For now, use the working direct download above. Build, lint, signature verification and host-browser focus checks passed; real device installation, login persistence, playback/fullscreen and TV remote acceptance remain untested.
 
