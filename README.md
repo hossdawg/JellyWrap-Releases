@@ -10,7 +10,7 @@ JellyWrap opens https://jellyfin.monstr.tv as a fullscreen Android application. 
 
 See [version metadata](version.json) for the current version. The direct public APK above is available without GitHub login. [Checksums](SHA256SUMS) · [Version metadata](version.json).
 
-[JellyWrap 1.1.1 release](https://github.com/hossdawg/JellyWrap-Releases/releases/tag/v1.1.1) is published with the signed APK and SHA256SUMS. An alternative direct URL is https://raw.githubusercontent.com/hossdawg/JellyWrap-Releases/main/JellyWrap.apk. Build, lint, update-policy unit tests, signature verification and host-browser focus/zoom/fullscreen checks passed; real device installation, login persistence, playback/fullscreen and TV remote acceptance remain untested.
+[JellyWrap 1.1.2 release](https://github.com/hossdawg/JellyWrap-Releases/releases/tag/v1.1.2) is published with the signed APK and SHA256SUMS. An alternative direct URL is https://raw.githubusercontent.com/hossdawg/JellyWrap-Releases/main/JellyWrap.apk. Build, lint, update-policy unit tests, signature verification and host-browser focus/zoom/fullscreen checks passed; real device installation, login persistence, playback/fullscreen and TV remote acceptance remain untested.
 
 ## Install using Downloader
 
@@ -25,3 +25,5 @@ Download the APK in a browser and allow installation from that browser, or use `
 Android 6 or later and a working system WebView are required. Playback depends on system codecs and Jellyfin transcoding. Update WebView/system software if playback or navigation fails. Source code is maintained separately in a private repository.
 
 Version 1.1.1 reduces TV remote navigation work and disables decorative TV card transitions and background backdrops. It keeps the 10% zoom and playback controls. Synthetic browser checks measure reduced DOM/layout work; actual performance on older Fire TV hardware still needs device testing.
+
+Version 1.1.2 adds a yellow selection ring independent of Jellyfin theme outlines: circular around compact icons and rounded around larger controls/cards. The Moonfin header icon activates once on remote OK release. Inside Moonfin, native remote keys and its own focus indicator are used because its Flutter canvas is not an HTML control grid. Host tests pass; authenticated Moonfin and actual Fire TV remote operation still need device testing.
