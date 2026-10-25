@@ -10,7 +10,7 @@ JellyWrap opens https://jellyfin.monstr.tv as a fullscreen Android application. 
 
 See [version metadata](version.json) for the current version. The direct public APK above is available without GitHub login. [Checksums](SHA256SUMS) · [Version metadata](version.json).
 
-[JellyWrap 1.1.3 release](https://github.com/hossdawg/JellyWrap-Releases/releases/tag/v1.1.3) is published with the signed APK and SHA256SUMS. An alternative direct URL is https://raw.githubusercontent.com/hossdawg/JellyWrap-Releases/main/JellyWrap.apk. Build, lint, update-policy unit tests, signature verification and host-browser focus/zoom/fullscreen checks passed; real device installation, login persistence, playback/fullscreen and TV remote acceptance remain untested.
+[JellyWrap 1.1.4 release](https://github.com/hossdawg/JellyWrap-Releases/releases/tag/v1.1.4) is published with the signed APK and SHA256SUMS. An alternative direct URL is https://raw.githubusercontent.com/hossdawg/JellyWrap-Releases/main/JellyWrap.apk. Build, lint, update-policy unit tests, signature verification and host-browser focus/zoom/fullscreen checks passed; real device installation, login persistence, playback/fullscreen and TV remote acceptance remain untested.
 
 ## Install using Downloader
 
@@ -29,3 +29,5 @@ Version 1.1.1 reduces TV remote navigation work and disables decorative TV card 
 Version 1.1.2 adds a yellow selection ring independent of Jellyfin theme outlines: circular around compact icons and rounded around larger controls/cards. The Moonfin header icon activates once on remote OK release. Inside Moonfin, native remote keys and its own focus indicator are used because its Flutter canvas is not an HTML control grid. Host tests pass; authenticated Moonfin and actual Fire TV remote operation still need device testing.
 
 Version 1.1.3 removes the old purple outline and suppresses conflicting outline/shadow focus styling while the yellow ring is active. It calibrates ring position from actual rendered viewport coordinates rather than reciprocal zoom assumptions. Precise host tests cover 110% zoom, additional scale/translation and scrolling; Fire TV positioning still needs device confirmation.
+
+Version 1.1.4 increases Jellyfin page scale from 110% to **132%**, making it 20% larger than before. The calibrated single yellow ring follows the larger controls. Fullscreen and Moonfin canvas use native scale.
