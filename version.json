@@ -1,8 +1,8 @@
 {
-  "versionName": "1.1.0",
-  "versionCode": 2,
+  "versionName": "1.1.1",
+  "versionCode": 3,
   "applicationId": "tv.monstr.jellywrap",
-  "sourceCommit": "5d96d99e8a8f15600b525ee74f4469468ddf13fc",
-  "sha256": "2a394512913b61172c39b27cadb50726c85766ff711213387ecd9ec461c78208",
-  "validation": "Build, lint, update-policy unit tests, signature and host-browser focus/zoom/fullscreen checks passed; physical device acceptance pending"
+  "sourceCommit": "8e57b7f86579a48ce4e6ae3adf8e8b9ef887b49d",
+  "sha256": "abfde415b0f9adb81ebd67ee1ad98ffb3b59ca99ab4decdc41f5231767fe91fb",
+  "validation": "Build, lint, update-policy unit tests, signature and host-browser navigation/cache/zoom/fullscreen checks passed; physical Fire TV acceptance pending"
 }
