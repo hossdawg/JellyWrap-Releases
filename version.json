@@ -1,0 +1,8 @@
+{
+  "versionName": "1.0.0",
+  "versionCode": 1,
+  "applicationId": "tv.monstr.jellywrap",
+  "sourceCommit": "01fb7dc7c6330daf02bfb6265e4fa2b63a6078a3",
+  "sha256": "6fab08f3994b751d23d88e35019d14b926f0d388eb6526875862eb4f8e6ac5ec",
+  "validation": "Build, lint, signature and host-browser focus checks passed; physical device acceptance pending"
+}
